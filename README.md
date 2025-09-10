@@ -14,19 +14,21 @@ Isi: Data berisi variabel seperti kelas penumpang, usia, jenis kelamin, jumlah k
 🛠️ Langkah-langkah Analisis
 Skrip ini melakukan analisis dalam beberapa tahapan utama:
 
-Pemuatan Data: Mengimpor library yang diperlukan (Pandas, Seaborn, Matplotlib) dan memuat dataset.
+1. Pemuatan Data
+Mengimpor library yang diperlukan (Pandas, Seaborn, Matplotlib) dan memuat dataset.
 
-Pemeriksaan Awal:
-
+2. Pemeriksaan Awal
 Menampilkan beberapa baris pertama dan terakhir data (.head(), .tail()).
 
 Melihat informasi umum dataset seperti tipe data dan nilai non-null (.info()).
 
 Menghitung statistik deskriptif untuk kolom numerik (.describe()).
 
-Penanganan Nilai Hilang (Missing Values): Mengidentifikasi dan menghitung jumlah nilai yang hilang di setiap kolom.
+3. Penanganan Nilai Hilang (Missing Values)
+Mengidentifikasi dan menghitung jumlah nilai yang hilang di setiap kolom.
 
-Analisis Univariat: Menganalisis setiap variabel secara individual.
+4. Analisis Univariat
+Menganalisis setiap variabel secara individual.
 
 Distribusi Usia: Histogram untuk melihat sebaran usia penumpang.
 
@@ -34,7 +36,8 @@ Distribusi Tarif: Histogram untuk sebaran tarif tiket.
 
 Jumlah Penumpang per Kelas: Bar plot untuk melihat komposisi penumpang di setiap pclass.
 
-Analisis Bivariat: Menganalisis hubungan antara dua variabel.
+5. Analisis Bivariat
+Menganalisis hubungan antara dua variabel.
 
 Kelangsungan Hidup vs. Jenis Kelamin: Bar plot untuk membandingkan tingkat survival antara pria dan wanita.
 
@@ -42,8 +45,7 @@ Kelangsungan Hidup vs. Kelas Penumpang: Bar plot untuk melihat pengaruh kelas so
 
 Usia vs. Tarif: Scatter plot untuk melihat korelasi antara usia dan tarif tiket, dibedakan berdasarkan status survival.
 
-Analisis Multivariat:
-
+6. Analisis Multivariat
 Matriks Korelasi: Heatmap untuk menunjukkan korelasi antar variabel numerik.
 
 Pairplot: Melihat hubungan berpasangan antara beberapa variabel kunci, dibedakan berdasarkan status survival.
